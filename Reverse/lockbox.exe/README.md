@@ -92,7 +92,7 @@ I copied the Base64, decoded it manually…
 `hhhhhhhh now we know what even the program will do 🤔`
 ---
 
-```Later I confirmed: the structure exactly matched executables made by [`PS2EXE`](https://github.com/MScholtes/PS2EXE.git).```
+Later I confirmed: the structure exactly matched executables made by [`PS2EXE`](https://github.com/MScholtes/PS2EXE.git).
 ---
 
 *#shulkwisec*
