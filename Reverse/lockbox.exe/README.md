@@ -56,6 +56,7 @@ Suddenly, everything made sense:
 
 I recognized `lockbox` contain interesting metohd called `PS2EXE` which contain a  **PowerShell scripts** inside `.exe` file.
 So this binary was likely a **PowerShell payload** executer inside a .NET wrapper.
+
 ![dnSpy Screenshot](dnspy.png)
 ---
 
