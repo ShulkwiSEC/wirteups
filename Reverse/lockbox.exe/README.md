@@ -1,5 +1,6 @@
 ## wirtup – `lockbox.exe`
 [📦 Download the Challenge (lockbox.7z)](/lockbox.7z)
+
 **Challenge:** Reverse the obfuscated `lockbox.exe` to find the flag.
 **Hint:** *"How the lockbox was made is the key."*
 
