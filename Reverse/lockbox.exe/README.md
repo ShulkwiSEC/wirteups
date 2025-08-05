@@ -48,7 +48,7 @@ Suddenly, everything made sense:
 * Organized structure
 * A function called `PS2EXE`
 
-![dnSpy Screenshot](dnspyMain.png)
+![dnSpy Screenshot](./dnspyMain.png)
 
 ---
 
