@@ -48,15 +48,15 @@ Suddenly, everything made sense:
 * Organized structure
 * A function called `PS2EXE`
 
-![dnSpy Screenshot](dnSpyMain.png)
+![dnSpy Screenshot](dnspyMain.png)
 
 ---
 
 ### `PS2EXE`
 
-I recognized `PS2EXE` which contain a  **PowerShell scripts** inside `.exe` file.
+I recognized `lockbox` contain interesting metohd called `PS2EXE` which contain a  **PowerShell scripts** inside `.exe` file.
 So this binary was likely a **PowerShell payload** executer inside a .NET wrapper.
-
+![dnSpy Screenshot](dnspy.png)
 ---
 
 ### `de Flag`
