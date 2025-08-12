@@ -1,5 +1,6 @@
 ## wirtup – `lockbox.exe`
-[📦 Download the Challenge (lockbox.7z)](/lockbox.7z)
+[📦 Download the Challenge (lockbox.7z)](lockbox.7z)
+
 **Challenge:** Reverse the obfuscated `lockbox.exe` to find the flag.
 **Hint:** *"How the lockbox was made is the key."*
 
@@ -28,7 +29,7 @@ But nope:
 * Possibly encrypted or fake logic
 * only thing valuable its .net string which mean 50% they used .net then to confirm you can use file
 
-![Ghidra Screenshot](/ghidra.png)
+![Ghidra Screenshot](ghidra.png)
 
 It felt intentionally messy. Then I remembered the hint:
 
@@ -47,15 +48,16 @@ Suddenly, everything made sense:
 * Organized structure
 * A function called `PS2EXE`
 
-![dnSpy Screenshot](/dnSpyMain.png)
+![dnSpy Screenshot](./dnspyMain.png)
 
 ---
 
 ### `PS2EXE`
 
-I recognized `PS2EXE` which contain a  **PowerShell scripts** inside `.exe` file.
+I recognized `lockbox` contain interesting metohd called `PS2EXE` which contain a  **PowerShell scripts** inside `.exe` file.
 So this binary was likely a **PowerShell payload** executer inside a .NET wrapper.
 
+![dnSpy Screenshot](dnspy.png)
 ---
 
 ### `de Flag`
@@ -90,7 +92,7 @@ I copied the Base64, decoded it manually…
 `hhhhhhhh now we know what even the program will do 🤔`
 ---
 
-```Later I confirmed: the structure exactly matched executables made by [`PS2EXE`](https://github.com/MScholtes/PS2EXE.git).```
+Later I confirmed: the structure exactly matched executables made by [`PS2EXE`](https://github.com/MScholtes/PS2EXE.git).
 ---
 
 *#shulkwisec*
