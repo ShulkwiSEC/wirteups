@@ -18,7 +18,7 @@ so you after digging into the capture The capture contains an RFCOMM/Serial Port
 * Brother P-touch printers use ESC/P-style commands; `ESC i S` selects raster mode, and repeated `G <len> <len> <data>` lines contain PackBits-compressed bitmap rows.
 (see [ESC/P-Style commands](https://download.brother.com/welcome/docp000584/cv_pt9700_eng_escp_103.pdf) for details)
 
-![xdd: bytes of data](/image.png "xdd: bytes of data" )
+![xdd: bytes of data](image.png "xdd: bytes of data" )
 
 *now it make sence cuz The challenge name “TZe-611” hints at Brother TZe tape.*
 
