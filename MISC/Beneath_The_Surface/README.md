@@ -12,4 +12,4 @@ With the path and private key, we achieved **Blind RCE**, but seeing no output w
 
 <img src="images/shell.png" alt="Interactive Shell In Action">
 
-writeup by [shulkwi](https://github.com/shulkwisec/writeups/beneath-the-surface)
+writeup by [shulkwisec](https://github.com/shulkwisec/writeups/beneath-the-surface)
